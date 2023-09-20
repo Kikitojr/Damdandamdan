@@ -17,7 +17,6 @@ body {
     left: 10%; /* Define a margem esquerda para limitar o movimento */
     width: 80%; /* Define a largura máxima permitida */
     height: 80%; /* Define a altura máxima permitida */
-    border: 1px solid red;
 }
 
 #caixa {
