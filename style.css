@@ -56,3 +56,23 @@ button {
         font-size: 14px;
     }
 }
+
+/* Estilo do botão inspirado em Van Gogh */
+.botao-van-gogh {
+    background-color: #ffdb58; /* Amarelo inspirado em tons usados por Van Gogh */
+    color: #2c3e50; /* Cor de texto para contraste */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.botao-van-gogh:hover {
+    background-color: #ffcc29; /* Altera a cor ao passar o mouse */
+    transform: scale(1.05); /* Efeito de escala suave */
+}
+
+
