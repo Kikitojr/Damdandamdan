@@ -57,8 +57,8 @@ button {
     }
 }
 
-/* Estilo do botão inspirado em Van Gogh */
-.botao-van-gogh {
+/* Estilo do botão amarelo inspirado em Van Gogh */
+.botao-amarelo-van-gogh {
     background-color: #ffdb58; /* Amarelo inspirado em tons usados por Van Gogh */
     color: #2c3e50; /* Cor de texto para contraste */
     border: none;
@@ -70,9 +70,18 @@ button {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.botao-van-gogh:hover {
+.botao-amarelo-van-gogh:hover {
     background-color: #ffcc29; /* Altera a cor ao passar o mouse */
     transform: scale(1.05); /* Efeito de escala suave */
 }
+
+/* Estilo responsivo para dispositivos móveis */
+@media (max-width: 768px) {
+    .botao-amarelo-van-gogh {
+        padding: 8px 16px; /* Reduz o preenchimento para telas menores */
+        font-size: 16px; /* Reduz o tamanho da fonte para telas menores */
+    }
+}
+
 
 
