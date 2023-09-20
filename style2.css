@@ -1,0 +1,42 @@
+body {
+    background: url(https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3283179:1664387574/Van%20Gogh%20Live%208K%203.jpg?f=16x9&$p$f=77fbcc1) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden; /* Impede a barra de rolagem horizontal */
+}
+
+#caixa {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para o conteúdo */
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Adicione estilos para tornar o conteúdo responsivo em dispositivos móveis */
+@media (max-width: 768px) {
+    #caixa {
+        width: 90%; /* Reduza a largura do conteúdo para se ajustar a telas menores */
+        padding: 10px;
+    }
+
+    /* Ajuste o tamanho do texto e a margem para uma melhor legibilidade em dispositivos móveis */
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
